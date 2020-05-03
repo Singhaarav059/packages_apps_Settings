@@ -153,7 +153,6 @@ import com.bootleggers.dumpster.MainDump;
 import com.bootleggers.dumpster.fragments.BootlegWelcome;
 import com.bootleggers.dumpster.fragments.GamingMode;
 import com.bootleggers.dumpster.fragments.PowerMenuSettings;
-import com.bootleggers.dumpster.external.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -295,7 +294,6 @@ public class SettingsGateway {
             PowerMenuSettings.class.getName(),
             BootlegWelcome.class.getName(),
             RunningServices.class.getName(),
-            OmniJawsSettings.class.getName(),
             GamingMode.class.getName()
     };
 
@@ -338,7 +336,6 @@ public class SettingsGateway {
             Settings.BootlegDumpsterActivity.class.getName(),
             Settings.PowerMenuSettings.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
-            Settings.OmniJawsSettingsActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
     };
 }
